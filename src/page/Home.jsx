@@ -1,20 +1,20 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar'
-import ThemeToggle from '../components/themetoggle/ThemeToggle'
 import Banner from '../components/banner/Banner'
+import TpmService from '../components/tpm-service/TpmService'
 
 const Home = () => {
   return (
     <>
-    <div className=" container">
+      <div>
 
-  <Navbar></Navbar>
-  <Banner></Banner>
+        <Navbar></Navbar>
+        <Banner></Banner>
+        <TpmService></TpmService>
+      </div>
 
-    </div>
-  
-  
-   </>
+
+    </>
   )
 }
 
