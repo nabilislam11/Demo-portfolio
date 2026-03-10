@@ -5,6 +5,8 @@ import TpmService from '../components/tpm-service/TpmService'
 import Counter from '../components/counter/Counter'
 import LatestService from '../components/latest-service/LatestService'
 import SkillArea from '../components/skill-area/SkillArea'
+import Education from '../components/eduction/Education'
+import Expeiences from '../components/experiences/Expeiences'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         <Counter></Counter>
         <LatestService></LatestService>
         <SkillArea></SkillArea>
+        <Education></Education>
+        <Expeiences></Expeiences>
       </div>
 
 
