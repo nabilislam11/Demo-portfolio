@@ -2,7 +2,7 @@ import React from 'react'
 import service from "../../assets/service.png"
 const LatestService = () => {
     return (
-        <div className=' container px-3 '>
+        <div className=' container'>
             <div className="flex flex-col gap-8">
                 <div className="text-center  flex flex-col items-center justify-between  gap-1  ">
                     <p className='font-rubik  font-medium  text-[16px] leading-[28px] text-[#FF494A] '>Latest Service</p>
