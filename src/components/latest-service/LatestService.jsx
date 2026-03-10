@@ -11,8 +11,35 @@ const LatestService = () => {
                         them improve their performance, efficiency, and organizational</p>
                 </div>
                 <div className="flex justify-between items-center ">
-                    <div className=" mt-[30px] "></div>
-                    <div className=" mt-[30px] ">
+                    <div className=" w-[50%] mt-[32px] px-[15px] flex flex-col  justify-between items-center gap-5 ">
+                     
+                     <div className="  py-[34px] px-[38px] bg-[#F4F4F4] rounded-[20px]  flex flex-col gap-5.5 ">
+                            <div className="flex items-center  gap-3.5 ">
+                                <p>01.</p>
+                                <p className='font-bold font-rajdhani text-[24px] leading-[30px]  '>A Portfolio of Creativity</p>
+                            </div>
+                            <p className='font-normal  font-rubik  text-[16px] leading-[26px] '>Business consulting consultants provide expert advice and guida the a
+businesses to help theme their performance efficiency</p>
+                        </div>
+                         <div className="  py-[34px] px-[38px] bg-[#F4F4F4] rounded-[20px]  flex flex-col gap-5.5 ">
+                            <div className="flex items-center  gap-3.5 ">
+                                <p>01.</p>
+                                <p className='font-bold font-rajdhani text-[24px] leading-[30px]  '>A Portfolio of Creativity</p>
+                            </div>
+                            <p className='font-normal  font-rubik  text-[16px] leading-[26px] '>Business consulting consultants provide expert advice and guida the a
+businesses to help theme their performance efficiency</p>
+                        </div>
+                         <div className="  py-[34px] px-[38px] bg-[#F4F4F4] rounded-[20px]  flex flex-col gap-5.5 ">
+                            <div className="flex items-center  gap-3.5 ">
+                                <p>01.</p>
+                                <p className='font-bold font-rajdhani text-[24px] leading-[30px]  '>A Portfolio of Creativity</p>
+                            </div>
+                            <p className='font-normal  font-rubik  text-[16px] leading-[26px] '>Business consulting consultants provide expert advice and guida the a
+businesses to help theme their performance efficiency</p>
+                        </div>
+
+                    </div>
+                    <div className=" w-[50%] mt-[32px] pl-[85px] pr-[15px] ">
                         <img src={service} alt="" />
                     </div>
                 </div>
