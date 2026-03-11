@@ -7,6 +7,7 @@ import LatestService from '../components/latest-service/LatestService'
 import SkillArea from '../components/skill-area/SkillArea'
 import Education from '../components/eduction/Education'
 import Expeiences from '../components/experiences/Expeiences'
+import Company from '../components/company/Company'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <SkillArea></SkillArea>
         <Education></Education>
         <Expeiences></Expeiences>
+        <Company></Company>
       </div>
 
 
