@@ -8,6 +8,7 @@ import SkillArea from '../components/skill-area/SkillArea'
 import Education from '../components/eduction/Education'
 import Expeiences from '../components/experiences/Expeiences'
 import Company from '../components/company/Company'
+import LatestPortfolio from '../components/latest-portfolio/LatestPortfolio'
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
         <Education></Education>
         <Expeiences></Expeiences>
         <Company></Company>
+        <LatestPortfolio></LatestPortfolio>
       </div>
 
 
