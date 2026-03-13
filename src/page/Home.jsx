@@ -11,6 +11,7 @@ import Company from '../components/company/Company'
 import LatestPortfolio from '../components/latest-portfolio/LatestPortfolio'
 import PricePlan from '../components/price-plan/PricePlan'
 import Testimonial from '../components/testimonial/Testimonial'
+import Blog from '../components/blog/Blog'
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
         <LatestPortfolio></LatestPortfolio>
         <PricePlan></PricePlan>
         <Testimonial></Testimonial>
+        <Blog></Blog>
       </div>
 
 
