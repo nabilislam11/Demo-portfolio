@@ -12,6 +12,7 @@ import LatestPortfolio from '../components/latest-portfolio/LatestPortfolio'
 import PricePlan from '../components/price-plan/PricePlan'
 import Testimonial from '../components/testimonial/Testimonial'
 import Blog from '../components/blog/Blog'
+import Footer from '../components/footer/footer'
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
         <PricePlan></PricePlan>
         <Testimonial></Testimonial>
         <Blog></Blog>
+        <Footer></Footer>
       </div>
 
 

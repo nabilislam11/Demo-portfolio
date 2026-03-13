@@ -68,15 +68,16 @@ const Testimonial = () => {
         initialSlide: 0,
         responsive: [
             {
-                breakpoint: 600,
+                breakpoint: 1024,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
-                    initialSlide: 2
+
                 }
             },
+
             {
-                breakpoint: 480,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -124,11 +125,9 @@ const Testimonial = () => {
             <div className="slider-container">
                 <Slider ref={sliderRef} {...settings}>
                     {
-
                         testimonalArray.map((item) => (
-
-                            <div>
-                                <div className=" mt-[30px]  p-[38px] bg-[#F4F4F4] rounded-[20px] flex flex-col ">
+                            <div className='outline-none px-3 '>
+                                <div className=" mt-[30px] p-[38px] bg-[#F4F4F4] rounded-[20px] flex flex-col ">
                                     <div className="">
                                         <img src={item.icon} alt="" />
                                     </div>

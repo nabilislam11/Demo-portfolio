@@ -6,7 +6,7 @@ import { FaRegCalendarDays } from 'react-icons/fa6'
 
 const Blog = () => {
     return (
-        <div className=' container px-[15px] pt-[120ox] flex flex-col gap-5'>
+        <div className=' container px-[15px] py-[120px] flex flex-col gap-5'>
             <div className=" text-center space-y-1.5">
                 <p className='font-medium font-rubik text-[16px] leading-[28px] text-[#FF494A]'>Blog and news</p>
                 <h2 className='font-bold  font-rajdhani text-[48px] leading-[60px] text-[#141414] w-[636px] mx-auto '>Elevating Personal Branding the
@@ -15,7 +15,7 @@ const Blog = () => {
             <div className=" pt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[17px] ">
                 <div className=" rounded-[20px] border border-[#D9DDE0]">
                     <div className=" relative rounded-2xl">
-                        <img className='rounded-[20px] w-full ' src={blog} alt="" />
+                        <img className='rounded-[20px] w-full object-cover     ' src={blog} alt="" />
                         <div className=" absolute top-2.5 left-2.5 flex items-center py-1 px-3.5 rounded-2xl bg-[#F4F4F4] gap-2 ">
 
                             <div className=" flex items-center gap-1">
@@ -40,7 +40,7 @@ const Blog = () => {
                 </div>
                 <div className=" rounded-[20px] border border-[#D9DDE0]">
                     <div className=" relative rounded-2xl">
-                        <img className='rounded-[20px] w-full ' src={blog} alt="" />
+                        <img className='rounded-[20px]  w-full object-cover    ' src={blog} alt="" />
                         <div className=" absolute top-2.5 left-2.5 flex items-center py-1 px-3.5 rounded-2xl bg-[#F4F4F4] gap-2 ">
 
                             <div className=" flex items-center gap-1">
@@ -65,7 +65,7 @@ const Blog = () => {
                 </div>
                 <div className=" rounded-[20px] border border-[#D9DDE0]">
                     <div className=" relative rounded-2xl">
-                        <img className='rounded-[20px] w-full ' src={blog} alt="" />
+                        <img className='rounded-[20px]  w-full object-cover    ' src={blog} alt="" />
                         <div className=" absolute top-2.5 left-2.5 flex items-center py-1 px-3.5 rounded-2xl bg-[#F4F4F4] gap-2 ">
 
                             <div className=" flex items-center gap-1">
