@@ -10,12 +10,12 @@ import Expeiences from '../components/experiences/Expeiences'
 import Company from '../components/company/Company'
 import LatestPortfolio from '../components/latest-portfolio/LatestPortfolio'
 import PricePlan from '../components/price-plan/PricePlan'
+import Testimonial from '../components/testimonial/Testimonial'
 
 const Home = () => {
   return (
     <>
       <div>
-
         <Navbar></Navbar>
         <Banner></Banner>
         <TpmService></TpmService>
@@ -27,6 +27,7 @@ const Home = () => {
         <Company></Company>
         <LatestPortfolio></LatestPortfolio>
         <PricePlan></PricePlan>
+        <Testimonial></Testimonial>
       </div>
 
 
