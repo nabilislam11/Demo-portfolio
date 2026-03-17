@@ -2,7 +2,7 @@ import React from 'react'
 import tpm1 from "../../assets/tpm1.svg"
 const TpmService = () => {
     return (
-        <div className='container px-3 py-[90px] '>
+        <div className='container px-3 py-[90px]  '>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 ">
                 <div className="py-[41px]  mt-8 flex flex-col items-center justify-between text-center gap-7 rounded-[20px] border border-[#FF494A] ">
                     <img src={tpm1} alt="" />

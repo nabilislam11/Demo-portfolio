@@ -17,7 +17,7 @@ import Footer from '../components/footer/footer'
 const Home = () => {
   return (
     <>
-      <div>
+      <div className='dark:bg-[#141414] '>
         <Navbar></Navbar>
         <Banner></Banner>
         <TpmService></TpmService>
