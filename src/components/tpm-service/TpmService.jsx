@@ -7,29 +7,29 @@ const TpmService = () => {
                 <div className="py-[41px]  mt-8 flex flex-col items-center justify-between text-center gap-7 rounded-[20px] border border-[#FF494A] ">
                     <img src={tpm1} alt="" />
                     <div className="space-y-2 ">
-                        <h2 className='font-rajdhani font-bold  text-[24px] leading-[34px]'>Web Design</h2>
-                        <p className='font-rubik  font-normal   text-[16px] leading-[26px]'>120 Projects</p>
+                        <h2 className='font-rajdhani font-bold  text-[24px] leading-[34px] text-black dark:text-white '>Web Design</h2>
+                        <p className='font-rubik  font-normal   text-[16px] leading-[26px]  text-black dark:text-[#9F9F9F]'>120 Projects</p>
                     </div>
                 </div>
                 <div className="py-[41px]  mt-8 flex flex-col items-center justify-between text-center gap-7 rounded-[20px] border border-[#FF494A] ">
                     <img src={tpm1} alt="" />
                     <div className="space-y-2 ">
-                        <h2 className='font-rajdhani font-bold  text-[24px] leading-[34px]'>Web Design</h2>
-                        <p className='font-rubik  font-normal   text-[16px] leading-[26px]'>120 Projects</p>
+                        <h2 className='font-rajdhani font-bold  text-[24px] leading-[34px]  text-black dark:text-white'>Web Design</h2>
+                        <p className='font-rubik  font-normal   text-[16px] leading-[26px] text-black dark:text-white'>120 Projects</p>
                     </div>
                 </div>
                 <div className="py-[41px]  mt-8 flex flex-col items-center justify-between text-center gap-7 rounded-[20px] border border-[#FF494A] ">
                     <img src={tpm1} alt="" />
                     <div className="space-y-2 ">
-                        <h2 className='font-rajdhani font-bold  text-[24px] leading-[34px]'>Web Design</h2>
-                        <p className='font-rubik  font-normal   text-[16px] leading-[26px]'>120 Projects</p>
+                        <h2 className='font-rajdhani font-bold  text-[24px] leading-[34px] text-black dark:text-white'>Web Design</h2>
+                        <p className='font-rubik  font-normal   text-[16px] leading-[26px] text-black dark:text-[#9F9F9F]'>120 Projects</p>
                     </div>
                 </div>
                 <div className="py-[41px]  mt-8 flex flex-col items-center justify-between text-center gap-7 rounded-[20px] border border-[#FF494A] ">
                     <img src={tpm1} alt="" />
                     <div className="space-y-2 ">
-                        <h2 className='font-rajdhani font-bold  text-[24px] leading-[34px]'>Web Design</h2>
-                        <p className='font-rubik  font-normal   text-[16px] leading-[26px]'>120 Projects</p>
+                        <h2 className='font-rajdhani font-bold  text-[24px] leading-[34px]  text-black dark:text-white'>Web Design</h2>
+                        <p className='font-rubik  font-normal   text-[16px] leading-[26px] text-black dark:text-[#9F9F9F]'>120 Projects</p>
                     </div>
                 </div>
             </div>
