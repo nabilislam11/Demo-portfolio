@@ -5,8 +5,8 @@ const SkillArea = () => {
         <div className='container px-[15px] pt-[90px] '>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-7.5 ">
                 <div className=" mt-7.5 flex flex-col gap-7.5  ">
-                    <h1 className='font-bold font-rajdhani text-[32px] leading-[42px] '>Design Skill </h1>
-                    <div className=" flex flex-col gap-4 ">
+                    <h1 className='font-bold font-rajdhani text-[32px] leading-[42px] text-black  dark:text-white '>Design Skill </h1>
+                    <div className=" flex flex-col gap-4 text-black dark:text-[#FFFFFF]   ">
                         <div className="flex items-center justify-between ">
                             <p className='font-normal  font-rubik text-[14px] leading-[17.5px] '>PHOTOSHOT</p>
                             <p className='font-normal  font-rubik text-[14px] leading-[24.5px] '>100%</p>
@@ -17,7 +17,7 @@ const SkillArea = () => {
 
 
                     </div>
-                    <div className=" flex flex-col gap-4 ">
+                    <div className=" flex flex-col gap-4 text-black dark:text-[#FFFFFF]  ">
                         <div className="flex items-center justify-between ">
                             <p className='font-normal  font-rubik text-[14px] leading-[17.5px] '>FIGMA</p>
                             <p className='font-normal  font-rubik text-[14px] leading-[24.5px] '>95%</p>
@@ -28,7 +28,7 @@ const SkillArea = () => {
 
 
                     </div>
-                    <div className=" flex flex-col gap-4 ">
+                    <div className=" flex flex-col gap-4  text-black dark:text-[#FFFFFF] ">
                         <div className="flex items-center justify-between ">
                             <span className='font-normal  font-rubik text-[14px] leading-[17.5px] '>ADOBE XD</span>
                             <span className='font-normal  font-rubik text-[14px] leading-[24.5px] '>60%</span>
@@ -52,8 +52,8 @@ const SkillArea = () => {
                     </div>
                 </div>
                 <div className=" mt-7.5 flex flex-col gap-7.5  ">
-                    <h1 className='font-bold font-rajdhani text-[32px] leading-[42px] '>Development Skill  </h1>
-                    <div className=" flex flex-col gap-4 ">
+                    <h1 className='font-bold font-rajdhani text-[32px] leading-[42px] text-black dark:text-white '>Development Skill  </h1>
+                    <div className=" flex flex-col gap-4 text-black dark:text-[#FFFFFF]  ">
                         <div className="flex items-center justify-between ">
                             <p className='font-normal  font-rubik text-[14px] leading-[17.5px] '>PHOTOSHOT</p>
                             <p className='font-normal  font-rubik text-[14px] leading-[24.5px] '>100%</p>
@@ -64,7 +64,7 @@ const SkillArea = () => {
 
 
                     </div>
-                    <div className=" flex flex-col gap-4 ">
+                    <div className=" flex flex-col gap-4 text-black dark:text-[#FFFFFF] ">
                         <div className="flex items-center justify-between ">
                             <p className='font-normal  font-rubik text-[14px] leading-[17.5px] '>FIGMA</p>
                             <p className='font-normal  font-rubik text-[14px] leading-[24.5px] '>95%</p>
@@ -75,7 +75,7 @@ const SkillArea = () => {
 
 
                     </div>
-                    <div className=" flex flex-col gap-4 ">
+                    <div className=" flex flex-col gap-4 text-black dark:text-[#FFFFFF]  ">
                         <div className="flex items-center justify-between ">
                             <span className='font-normal  font-rubik text-[14px] leading-[17.5px] '>ADOBE XD</span>
                             <span className='font-normal  font-rubik text-[14px] leading-[24.5px] '>60%</span>
@@ -86,7 +86,7 @@ const SkillArea = () => {
 
 
                     </div>
-                    <div className=" flex flex-col gap-4 ">
+                    <div className=" flex flex-col gap-4  text-black dark:text-[#FFFFFF] ">
                         <div className="flex items-center justify-between ">
                             <span className='font-normal  font-rubik text-[14px] leading-[17.5px] '>ADOBE ILLUSTRATOR</span>
                             <span className='font-normal  font-rubik text-[14px] leading-[24.5px] '>70%</span>

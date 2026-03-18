@@ -13,23 +13,23 @@ const Expeiences = () => {
                 <div className="w-[50%] mt-[15px] ml-[15px] ">
                     <div className="flex flex-col justify-between gap-8 pl-[40px] pr-[138px] ">
                         <div className="">
-                            <h2 className='font-bold font-rajdhani text-3xl text-[#141414] leading-[11px] ' >Experiences </h2>
+                            <h2 className='font-bold font-rajdhani text-3xl text-[#141414] leading-[11px] dark:text-white ' >Experiences </h2>
                         </div>
                         <div className="flex flex-col">
-                          <p className='font-rubik font-medium text-[16px] leading-[28px] text-[#FF494A]'>experiences</p>
-                            <h2 className='font-rajdhani font-bold  text-[24px] leading-[30px] text-[#141414]'>Fatima Asrafy</h2>
-                            <h3 className='font-rajdhani font-medium text-[18px] leading-[27px] text-[#141414] pt-[6px] '>UI/UX Designer</h3>
-                              <p className='font-rubik font-normal  text-[16px] leading-[30px] text-[#5D6570] pt-[16px] '>Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum desi dolore eu fugiat nulla pariatu Duis aute irure</p>
+                            <p className='font-rubik font-medium text-[16px] leading-[28px] text-[#FF494A]'>experiences</p>
+                            <h2 className='font-rajdhani font-bold  text-[24px] leading-[30px] text-[#141414] dark:text-[#FFFFFF] '>Fatima Asrafy</h2>
+                            <h3 className='font-rajdhani font-medium text-[18px] leading-[27px] text-[#141414] dark:text-[#FFFFFF]  pt-[6px] '>UI/UX Designer</h3>
+                            <p className='font-rubik font-normal  text-[16px] leading-[30px] text-[#5D6570] dark:text-[#9F9F9F] pt-[16px] '>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum desi dolore eu fugiat nulla pariatu Duis aute irure</p>
                         </div>
-                             <div className="flex flex-col pt-[18px]">
-                          <p className='font-rubik font-medium text-[16px] leading-[28px] text-[#FF494A]'>experiences</p>
-                            <h2 className='font-rajdhani font-bold  text-[24px] leading-[30px] text-[#141414]'>Fatima Asrafy</h2>
-                            <h3 className='font-rajdhani font-medium text-[18px] leading-[27px] text-[#141414] pt-[6px] '>UI/UX Designer</h3>
-                              <p className='font-rubik font-normal  text-[16px] leading-[30px] text-[#5D6570] pt-[16px] '>Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum desi dolore eu fugiat nulla pariatu Duis aute irure</p>
+                        <div className="flex flex-col pt-[18px]">
+                            <p className='font-rubik font-medium text-[16px] leading-[28px] text-[#FF494A] dark:text-[#FFFFFF] '>experiences</p>
+                            <h2 className='font-rajdhani font-bold  text-[24px] leading-[30px] text-[#141414] dark:text-[#FFFFFF] '>Fatima Asrafy</h2>
+                            <h3 className='font-rajdhani font-medium text-[18px] leading-[27px] text-[#141414] dark:text-[#FFFFFF]  pt-[6px] '>UI/UX Designer</h3>
+                            <p className='font-rubik font-normal  text-[16px] leading-[30px] text-[#5D6570] pt-[16px] dark:text-[#9F9F9F] '>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum desi dolore eu fugiat nulla pariatu Duis aute irure</p>
                         </div>
-                      
+
                     </div>
                 </div>
             </div>
