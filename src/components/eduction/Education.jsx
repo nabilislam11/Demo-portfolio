@@ -23,7 +23,7 @@ const Education = () => {
 
                         <div className="  pt-[48px] pb-[50px] px-[38px] bg-[#F4F4F4] dark:bg-[#141414]  rounded-[20px]  flex flex-col gap-1.5  ">
 
-                            <p className='font-normal  font-rubik  text-[16px] leading-[26px] text-[#141414] dark:text-[#FFFFFF] '>Trainer Marketing</p>
+                            <p clzassName='font-normal  font-rubik  text-[16px] leading-[26px] text-[#141414] dark:text-[#FFFFFF] '>Trainer Marketing</p>
                             <p className='font-bold   font-rajdhani   text-[18px] leading-[28px] text-[#141414]  dark:text-[#FFFFFF] '>2005-2009</p>
 
                             <p className='font-normal  font-rubik  text-[16px] leading-[30px] text-[#5D6570] dark:text-[#9F9F9F]  '>A personal portfolio is a curated collection of an individual's professional

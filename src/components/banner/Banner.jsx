@@ -4,7 +4,7 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 const Banner = () => {
     return (
-        <div className="container px-3 relative dark:bg-[#141414] ">
+        <div className="container px-3 relative dark:bg-black ">
 
             <div className="flex justify-between items-start pb-[88px]">
                 <div className=" w-[25%] pt-[192px] space-y-5">
