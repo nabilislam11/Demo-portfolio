@@ -89,7 +89,7 @@ const Testimonial = () => {
         <div className='container  px-[15px] '>
             <div className=" text-center space-y-1.5">
                 <p className='font-medium font-rubik text-[16px] leading-[26px] text-[#FF494A]'>Our Testimonial</p>
-                <h2 className='font-bold  font-rajdhani text-[48px] leading-[60px] text-[#141414] w-[484px] mx-auto '>Enhancing Collaboration
+                <h2 className='font-bold  font-rajdhani text-[48px] leading-[60px] text-[#141414] dark:text-white w-[484px] mx-auto  '>Enhancing Collaboration
                     between Remote</h2>
             </div>
             <div className="flex gap-4 relative">
@@ -127,14 +127,14 @@ const Testimonial = () => {
                     {
                         testimonalArray.map((item) => (
                             <div className='outline-none px-3 '>
-                                <div className=" mt-[30px] p-[38px] bg-[#F4F4F4] rounded-[20px] flex flex-col ">
+                                <div className=" mt-[30px] p-[38px] bg-[#F4F4F4] dark:bg-[#141414] rounded-[20px] flex flex-col ">
                                     <div className="">
                                         <img src={item.icon} alt="" />
                                     </div>
-                                    <p className='font-normal font-rubik text-[18px] leading-[30px] text-[#5D6570] pt-[43px] pb-[32px]'>{item.details}</p>
+                                    <p className='font-normal font-rubik text-[18px] leading-[30px] text-[#5D6570] pt-[43px] pb-[32px] dark:text-[#9F9F9F]'>{item.details}</p>
                                     <div className="flex flex-col gap-3">
-                                        <p className='font-bold  font-rajdhani text-[18px] leading-[20px] text-[#141414]'>{item.h2}</p>
-                                        <p className='font-normal font-rubik text-[14px] leading-[22.4px] text-[#5D6570]'>{item.title}</p>
+                                        <p className='font-bold  font-rajdhani text-[18px] leading-[20px] text-[#141414] dark:text-white'>{item.h2}</p>
+                                        <p className='font-normal font-rubik text-[14px] leading-[22.4px] text-[#5D6570] dark:text-[#9F9F9F]'>{item.title}</p>
                                     </div>
                                 </div>
                             </div>
