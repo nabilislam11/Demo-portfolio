@@ -6,7 +6,7 @@ import ThemeToggle from '../themetoggle/ThemeToggle'
 const DesktopNavbar = () => {
     return (
         <div>
-            <div className="bg-[#F4F4F4] shadow-[0_7px_18px_0_rgba(24,16,16,0.08)] dark:bg-[#141414] text-black dark:text-white transition-colors duration-300">
+            <div className="hidden md:block bg-[#F4F4F4] shadow-[0_7px_18px_0_rgba(24,16,16,0.08)] dark:bg-[#141414] text-black dark:text-white transition-colors duration-300">
                 <div className='container flex justify-between items-center py-2.5 px-3'>
 
                     {/* Logo Section */}

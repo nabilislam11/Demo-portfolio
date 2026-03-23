@@ -6,11 +6,14 @@ const Banner = () => {
     return (
         <div className="container px-3 relative dark:bg-black ">
 
-            <div className="flex justify-between items-start pb-[88px]">
-                <div className=" w-[25%] pt-[192px] space-y-5">
+            <div className=" relative flex flex-col  md:flex-row justify-between items-start pb-[88px]">
+                <div className="  md:absolute md:left-85  md:top-[10px]   items-center flex justify-center  z-[10]">
+                    <img src={banner} alt="" />
+                </div>
+                <div className=" md:w-[25%] pt-[20px] md:pt-[192px] space-y-5">
                     <div className=" ">
                         <p className='font-rajdhani font-bold  text-[28px] leading-[38px] text-black dark:text-white ' >Hello i’m</p>
-                        <h2 className='font-rajdhani font-bold  text-[90px] leading-[103.5px] text-black dark:text-white' >Brooklyn
+                        <h2 className='font-rajdhani font-bold text-[38px] md:text-[90px] leading-12 md:leading-[103.5px] text-black dark:text-white' >Brooklyn
                             Simmons</h2>
                     </div>
                     <div className="flex items-center rounded-[500px] pl-[28px] pr-[30px] bg-[#FF494A] w-[200px] gap-1.5  ">
@@ -19,13 +22,10 @@ const Banner = () => {
                     </div>
 
                 </div>
-                <div className="    items-center flex justify-center  z-[10]">
-                    <img src={banner} alt="" />
-                </div>
-                <div className=" w-[25%] pt-[192px] flex flex-col gap-10 ">
-                    <div className=" space-y-5 ">
-                        <p className='font-rubik  font-normal   text-[16px] leading-[30px]  text-black dark:text-white ' >About Me</p>
-                        <h2 className='font-rubik  font-normal   text-[16px] leading-[30px] text-black dark:text-white' >A personal <span className='text-[#FF494A]'>portfolio</span> is a collection of to
+                <div className=" md:w-[25%] pt-[20px] md:pt-[192px] flex flex-col gap-3 md:gap-10 ">
+                    <div className="  md:space-y-5 ">
+                        <p className='font-rubik  font-normal text-[16px] leading-[30px]  text-black dark:text-white ' >About Me</p>
+                        <h2 className='font-rubik  font-normal text-[16px] leading-[30px] text-black dark:text-white' >A personal <span className='text-[#FF494A]'>portfolio</span> is a collection of to
                             your work, that is achievements, and a
                             skills that <span className='text-[#FF494A]'>web design</span>  highlights in your</h2>
                     </div>
@@ -49,7 +49,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div className=" " >
+            <div className=" hidden md:block " >
                 <h2 className=' z-[1]  absolute top-[580px] left-30 text-transparent opacity-60  select-none font-rajdhani font-bold text-[212.9px] leading-[244.8px] [-webkit-text-stroke-width:1px] [-webkit-text-stroke-color:black] dark:[-webkit-text-stroke-color:white]    '>WEB DESIGN</h2>
                 <h2 className=' z-[50]  absolute top-170 left-70  font-rajdhani font-bold text-[150px] leading-[172.5px] [-webkit-text-stroke-width:3px] [-webkit-text-stroke-color:#FF494A]  text-transparent translate-y-6    '>WEB DESIGN</h2>
             </div>
