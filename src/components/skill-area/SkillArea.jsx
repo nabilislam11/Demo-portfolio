@@ -2,7 +2,7 @@ import React from 'react'
 
 const SkillArea = () => {
     return (
-        <div className='container px-[15px] pt-[90px] '>
+        <div className='container px-[15px] pt-[30px] md:pt-[90px] '>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-7.5 ">
                 <div className=" mt-7.5 flex flex-col gap-7.5  ">
                     <h1 className='font-bold font-rajdhani text-[32px] leading-[42px] text-black  dark:text-white '>Design Skill </h1>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Counter = () => {
     return (
-        <div className='container px-3 pb-[120px] '>
+        <div className='container px-3  pb-[60px] md:pb-[120px] '>
             <div className="flex flex-col md:flex-row  justify-between  ">
                 <div className=" mt-[32px]  md:w-[50%] bg-[#F4F4F4] dark:bg-[#141414] pt-[30px] md:pt-[36px]  px-[20px] md:px-[52px]  pb-[20px] md:pb-[51px] rounded-[20px] space-y-3 ">
                     <div className="flex flex-col md:flex-row md:items-center  ">

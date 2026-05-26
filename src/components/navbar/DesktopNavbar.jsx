@@ -44,6 +44,7 @@ const DesktopNavbar = () => {
                     {/* Social Icons & Theme Toggle */}
                     <div className="flex justify-between items-center gap-6">
                         <div className="flex items-center justify-between gap-2">
+                            <ThemeToggle></ThemeToggle>
                             <div className="flex items-center justify-center rounded-full p-[13px] bg-[#0A0A0A]/10 dark:bg-white/10 cursor-pointer transition-colors hover:bg-black/20 dark:hover:bg-white/20">
                                 <FaInstagram />
                             </div>

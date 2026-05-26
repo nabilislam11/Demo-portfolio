@@ -4,14 +4,16 @@
 
 @layer utilities {
   .container {
-    @apply max-w-322.5 px-3 mx-auto;
+    @apply w-full max-w-322.5 mx-auto px-5;
   }
 }
 
 body {
   @apply transition-colors duration-300; /* Smooth dark/light change */
 }
-
+body {
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
   color: black;
