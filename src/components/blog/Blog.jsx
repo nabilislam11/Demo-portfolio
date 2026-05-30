@@ -6,10 +6,10 @@ import { FaRegCalendarDays } from 'react-icons/fa6'
 
 const Blog = () => {
     return (
-        <div className=' container px-[15px] py-[120px] flex flex-col gap-5'>
+        <div className=' container px-[15px] py-[20px] md:py-[120px] flex flex-col gap-5'>
             <div className=" text-center space-y-1.5">
                 <p className='font-medium font-rubik text-[16px] leading-[28px] text-[#FF494A]'>Blog and news</p>
-                <h2 className='font-bold  font-rajdhani text-[48px] leading-[60px] text-[#141414] dark:text-white w-[636px] mx-auto '>Elevating Personal Branding the
+                <h2 className='font-bold  font-rajdhani text-[20px] md:text-[48px] leading-7 md:leading-[60px] text-[#141414] dark:text-white md:w-[636px] mx-auto '>Elevating Personal Branding the
                     through Powerful Portfolios</h2>
             </div>
             <div className=" pt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[17px] ">

@@ -28,7 +28,6 @@ const Home = () => {
         <Education></Education>
         <Expeiences></Expeiences>
         <Company></Company>
-
         <LatestPortfolio></LatestPortfolio>
         <PricePlan></PricePlan>
         <Testimonial></Testimonial>
