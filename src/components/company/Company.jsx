@@ -7,22 +7,22 @@ const Company = () => {
   return (
     <div className=' container md:mt-[120px]'>
       <div className="grid grid-cols-2 lg:grid-cols-4 border border-[#9F9F9F] dark:border-[#FFFFFF]/8">
-        <div className=" py-[46.5px] px-[68.12px] border-r  border-[#9F9F9F] dark:border-[#FFFFFF]/8">
+        <div className=" py-[46.5px] px-[68.12px] border-r  border-[#9F9F9F]  dark:border-[#FFFFFF]/8">
           <img src={company1} alt="" />
         </div>
-        <div className="py-[46.5px] px-[68.12px]  border-r  border-[#9F9F9F] dark:border-[#FFFFFF]/8">
+        <div className="py-[46.5px] px-[68.12px]  md:border-r  border-[#9F9F9F]  dark:border-[#FFFFFF]/8">
           <img src={company2} alt="" />
         </div>
         <div className=" py-[46.5px] px-[68.12px] border-r border-t md:border-t-0 border-[#9F9F9F] dark:border-[#FFFFFF]/8">
           <img src={company3} alt="" />
         </div>
-        <div className=" py-[46.5px] px-[68.12px] ">
+        <div className=" border-t md:border-t-0 border-[#9F9F9F] dark:border-[#FFFFFF]/8 py-[46.5px] px-[68.12px] ">
           <img src={company4} alt="" />
         </div>
         <div className=" py-[46.5px] px-[68.12px] border-r border-t border-[#9F9F9F] dark:border-[#FFFFFF]/8">
           <img src={company1} alt="" />
         </div>
-        <div className=" py-[46.5px] px-[68.12px] border-r border-t border-[#9F9F9F] dark:border-[#FFFFFF]/8">
+        <div className=" py-[46.5px] px-[68.12px]  md:border-r  border-t border-[#9F9F9F] dark:border-[#FFFFFF]/8">
           <img src={company2} alt="" />
         </div>
         <div className=" py-[46.5px] px-[68.12px] border-r border-t border-[#9F9F9F] dark:border-[#FFFFFF]/8">
