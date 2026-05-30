@@ -4,18 +4,15 @@ import { IoCheckmarkCircle } from 'react-icons/io5'
 
 const PricePlan = () => {
     return (
-        <div className=' container py-[120.5px] px-[15px] '>
+        <div className=' container py-[20px] md:py-[120.5px] px-[15px] '>
             <div className="flex flex-col gap-5">
-
                 <div className="flex flex-col gap-1.5 text-center ">
-
                     <p className='font-rubik font-medium text-[16px] leading-7 text-[#FF494A] '>My Price plan</p>
-
-                    <h2 className=' w-[45%] mx-auto font-rajdhani font-bold text-[48px] leading-[60px] text-[#141414] dark:text-white'>Enhancing Collaboration
+                    <h2 className=' md:w-[45%] mx-auto font-rajdhani font-bold text-[20px] md:text-[48px] leading-7 md:leading-[60px] text-[#141414] dark:text-white'>Enhancing Collaboration
                         between Remote</h2>
                 </div>
-                <div className="flex flex-col md:flex-row items-center mx-auto gap-3.5">
-                    <div className="mt-[30px] p-[38px]  rounded-[20px] bg-[#F4F4F4] dark:bg-[#141414] flex flex-col gap-0.5 ">
+                <div className="flex flex-col md:flex-row items-center mx-auto gap-1.5 md:gap-3.5">
+                    <div className="md:mt-[30px] p-[20px] md:p-[38px]  rounded-[20px] bg-[#F4F4F4] dark:bg-[#141414] flex flex-col gap-0.5 ">
                         <p className='font-bold  font-rajdhani text-[18px] leading-[27px] text-[#141414]dark:text-white'>Starter</p>
                         <h1 className='font-bold  font-rajdhani text-[48px] leading-[60px] text-[#141414] dark:text-white'>$ 5.00</h1>
                         <p className='font-bold  font-rajdhani text-[18px] leading-[27px] text-[#141414] pt-[3px] pb-[26px] dark:text-white '>Per Month</p>

@@ -13,6 +13,7 @@ import PricePlan from '../components/price-plan/PricePlan'
 import Testimonial from '../components/testimonial/Testimonial'
 import Blog from '../components/blog/Blog'
 import Footer from '../components/footer/footer'
+import MySkill from '../components/my-skill/MySkill'
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
         <Education></Education>
         <Expeiences></Expeiences>
         <Company></Company>
+
         <LatestPortfolio></LatestPortfolio>
         <PricePlan></PricePlan>
         <Testimonial></Testimonial>

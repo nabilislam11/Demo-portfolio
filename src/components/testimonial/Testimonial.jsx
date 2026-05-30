@@ -63,10 +63,17 @@ const Testimonial = () => {
         arrows: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
             {
                 breakpoint: 1024,
                 settings: {
@@ -76,33 +83,28 @@ const Testimonial = () => {
                 }
             },
 
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
         ]
     }
+
+    console.log(window.innerWidth);
     return (
         <div className='container  px-[15px] '>
             <div className=" text-center space-y-1.5">
                 <p className='font-medium font-rubik text-[16px] leading-[26px] text-[#FF494A]'>Our Testimonial</p>
-                <h2 className='font-bold  font-rajdhani text-[48px] leading-[60px] text-[#141414] dark:text-white w-[484px] mx-auto  '>Enhancing Collaboration
+                <h2 className='font-bold  font-rajdhani text-[20px] md:text-[48px] leading-7  md:leading-[60px] text-[#141414] dark:text-white md:w-[484px] mx-auto  '>Enhancing Collaboration
                     between Remote</h2>
             </div>
-            <div className="flex gap-4 relative">
+            <div className="flex gap-2 md:gap-4 relative">
                 <button
                     onClick={() => sliderRef.current.slickPrev()}
-                    className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-[#FF494A] hover:text-white transition-all  absolute top-60  left-[-100px]"
+                    className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-[#FF494A] hover:text-white transition-all  absolute top-42  left-[-100px]"
                 >
                     <IoMdArrowDropleft size={30} />
 
                 </button>
                 <button
                     onClick={() => sliderRef.current.slickNext()}
-                    className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-[#FF494A] hover:text-white transition-all  absolute top-60  right-[-100px] "
+                    className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-[#FF494A] hover:text-white transition-all  absolute top-42  right-[-100px] "
                 >
                     <IoMdArrowDropright size={30} />
                 </button>
@@ -125,16 +127,18 @@ const Testimonial = () => {
             <div className="slider-container">
                 <Slider ref={sliderRef} {...settings}>
                     {
-                        testimonalArray.map((item) => (
-                            <div className='outline-none px-3 '>
-                                <div className=" mt-[30px] p-[38px] bg-[#F4F4F4] dark:bg-[#141414] rounded-[20px] flex flex-col ">
-                                    <div className="">
-                                        <img src={item.icon} alt="" />
-                                    </div>
-                                    <p className='font-normal font-rubik text-[18px] leading-[30px] text-[#5D6570] pt-[43px] pb-[32px] dark:text-[#9F9F9F]'>{item.details}</p>
-                                    <div className="flex flex-col gap-3">
-                                        <p className='font-bold  font-rajdhani text-[18px] leading-[20px] text-[#141414] dark:text-white'>{item.h2}</p>
-                                        <p className='font-normal font-rubik text-[14px] leading-[22.4px] text-[#5D6570] dark:text-[#9F9F9F]'>{item.title}</p>
+                        testimonalArray.map((item, index) => (
+                            <div key={index}>
+                                <div className='outline-none px-3 '>
+                                    <div className=" mt-[30px] p-5 md:p-[38px] bg-[#F4F4F4] dark:bg-[#141414] rounded-[20px] flex flex-col items-center  md:items-start">
+                                        <div className="">
+                                            <img src={item.icon} alt="" />
+                                        </div>
+                                        <p className='font-normal font-rubik text-[18px] md:leading-[30px] text-[#5D6570] pt-[43px] pb-[32px] dark:text-[#9F9F9F]'>{item.details}</p>
+                                        <div className="flex flex-col gap-3">
+                                            <p className='font-bold  font-rajdhani text-[18px] leading-[20px] text-[#141414] dark:text-white'>{item.h2}</p>
+                                            <p className='font-normal font-rubik text-[14px] md:leading-[22.4px] text-[#5D6570] dark:text-[#9F9F9F]'>{item.title}</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
