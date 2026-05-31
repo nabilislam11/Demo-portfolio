@@ -5,7 +5,7 @@ import company3 from "../../assets/company3.svg"
 import company4 from "../../assets/company4.svg"
 const Company = () => {
   return (
-    <div className=' container md:mt-[120px]'>
+    <div className=' container md:mt-[120px] md:mb-[50px]'>
       <div className="grid grid-cols-2 lg:grid-cols-4 border border-[#9F9F9F] dark:border-[#FFFFFF]/8">
         <div className=" py-[46.5px] px-[68.12px] border-r  border-[#9F9F9F]  dark:border-[#FFFFFF]/8">
           <img src={company1} alt="" />

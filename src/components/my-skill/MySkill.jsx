@@ -6,13 +6,12 @@ const MySkill = () => {
     return (
         <div className=' pt-[20px] md:pt-[120px] px-[7.5px] '>
             <div className="flex flex-col gap-14.5 ">
-
-                <div className="flex flex-col gap-1.5 ">
+                <div className="flex flex-col  gap-1.5 ">
                     <p className='font-rubik font-medium text-[16px] leading-[28px] text-[#FF494A]'>My Skill</p>
                     <h2 className='font-rajdhani  font-bold  text-[18px] md:text-[48px] leading-[60px] text-[#141414] dark:text-white'>Elevated Designs Personalized
                         the best Experiences</h2>
                 </div>
-                <div className="">
+                <div className=" flex flex-col gap-3.5">
                     <div className=" bg-[#FF4A57] flex flex-col rounded-[20px] gap-5 px-[20px]  ">
                         <div className="pt-[20px] md:pt-[42px] pb-[20px] md:pb-[32px] flex  flex-col md:flex-row justify-between items-center md:gap-[132px] ">
                             <div className="p-4 rounded-full border-2 border border-[#141414] dark:text-[#9F9F9F] dark:border-[#FFFFFF]/8 ">
@@ -33,7 +32,7 @@ const MySkill = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="  flex flex-col rounded-[20px] px-[20px]  ">
+                    <div className=" hover:bg-[#FF4A57]  transition all duration-300 ease-in-out  flex flex-col rounded-[20px] px-[20px]  ">
                         <div className="pt-[20px] md:pt-[42px] pb-[20px] md:pb-[32px] flex  flex-col md:flex-row justify-between items-center md:gap-[132px] ">
                             <div className="p-4 rounded-full border-2 border border-[#141414] dark:text-white dark:border-[#FFFFFF]  dark:border-2">
                                 <CiBank className=' size-7 text-[#2A2D31] dark:text-[#9F9F9F]   ' />
@@ -53,7 +52,7 @@ const MySkill = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="  flex flex-col rounded-[20px] px-[20px] ">
+                    <div className=" hover:bg-[#FF4A57] transfo flex flex-col rounded-[20px] px-[20px]  transition all duration-300 ease-in-out  ">
                         <div className="pt-[20px] md:pt-[42px] pb-[20px] md:pb-[32px] flex  flex-col md:flex-row justify-between items-center md:gap-[132px] ">
                             <div className="p-4 rounded-full border-2  dark:border-white border border-[#141414]  dark:text-[#FFFFFF]/8 ">
                                 <CiBank className='text-[#2A2D31] dark:text-[#9F9F9F] size-7' />

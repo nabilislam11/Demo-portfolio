@@ -1,14 +1,11 @@
 import { useEffect, useState } from "react";
-
 const ThemeToggle = () => {
   const [darkMode, setDarkMode] = useState(false);
-
   // initial load
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
     setDarkMode(savedTheme === "dark");
   }, []);
-
   // apply theme
   useEffect(() => {
     const root = document.documentElement;
@@ -21,7 +18,6 @@ const ThemeToggle = () => {
       localStorage.setItem("theme", "light");
     }
   }, [darkMode]);
-
   return (
     <button
       onClick={() => setDarkMode((prev) => !prev)}
@@ -31,5 +27,4 @@ const ThemeToggle = () => {
     </button>
   );
 };
-
 export default ThemeToggle;

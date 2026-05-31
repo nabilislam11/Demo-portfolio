@@ -30,3 +30,18 @@ ul {
   --font-inter: Inter, sans-serif;
   --font-rajdhani: Rajdhani, sans-serif;
 }
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-card {
+  animation: float 4s ease-in-out infinite;
+}
