@@ -11,7 +11,7 @@ const PricePlan = () => {
                     <h2 className=' md:w-[45%] mx-auto font-rajdhani font-bold text-[20px] md:text-[48px] leading-7 md:leading-[60px] text-[#141414] dark:text-white'>Enhancing Collaboration
                         between Remote</h2>
                 </div>
-                <div className="flex flex-col md:flex-row items-center mx-auto gap-1.5 md:gap-3.5">
+                <div className=" grid grid-cols-1 md:grid-cols-3 gap-1.5 md:gap-3.5">
                     <div className="md:mt-[30px] p-[20px] md:p-[38px]  rounded-[20px] bg-[#F4F4F4] dark:bg-[#141414] flex flex-col gap-0.5 ">
                         <p className='font-bold  font-rajdhani text-[18px] leading-[27px] text-[#141414]dark:text-white'>Starter</p>
                         <h1 className='font-bold  font-rajdhani text-2xl md:text-[48px] leading-7 md:leading-[60px] text-[#141414] dark:text-white'>$ 5.00</h1>
@@ -30,15 +30,10 @@ const PricePlan = () => {
                                 <p className='font-normal  font-rubik  text-[16px] leading-[24px] text-[#5D6570] dark:text-[#9F9F9F]'>5 Social Media Account</p>
                             </div>
                         </div>
-
                         {/* <button className=' font-medium font-rubik  flex justify-center   items-center gap-1.5 text-[14px] leading-[47px] border border-[#D9DDE0] rounded-full text-[#141414]  px-[12px]'>Get Started <span><IoMdArrowRoundForward /></span></button> */}
                         <div className="">
                             <button className='px-6.25  flex items-center gap-1.5 border border-[#D9DDE0] leading-12 rounded-full dark:text-[#9F9F9F] dark:border-[#9F9F9F] '>Get Started <IoMdArrowRoundForward /> </button>
                         </div>
-
-
-
-
                     </div>
                     <div className="mt-[30px] p-[20px] md:p-[38px]  rounded-[20px] bg-[#F4F4F4] dark:bg-[#141414] flex flex-col gap-0.5 ">
                         <p className='font-bold  font-rajdhani text-[18px] leading-[27px] text-[#141414] dark:text-white'>Starter</p>
@@ -69,10 +64,6 @@ const PricePlan = () => {
                         <div className="">
                             <button className='px-6.25  flex items-center gap-1.5 border border-[#D9DDE0] leading-12 rounded-full dark:border-[#9F9F9F] dark:text-[#9F9F9F] '>Get Started <IoMdArrowRoundForward /> </button>
                         </div>
-
-
-
-
                     </div>
                     <div className="mt-[30px] p-[20px] md:p-[38px]  rounded-[20px] bg-[#F4F4F4] dark:bg-[#141414] flex flex-col gap-0.5 ">
                         <p className='font-bold  font-rajdhani text-[18px] leading-[27px] text-[#141414] dark:text-white'>Starter</p>
@@ -95,10 +86,6 @@ const PricePlan = () => {
                         <div className="">
                             <button className='px-6.25  flex items-center gap-1.5 border border-[#D9DDE0] leading-12 rounded-full  dark:text-[#9F9F9F]'>Get Started <IoMdArrowRoundForward /> </button>
                         </div>
-
-
-
-
                     </div>
                 </div>
             </div>

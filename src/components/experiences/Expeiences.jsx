@@ -3,12 +3,11 @@ import expert from "../../assets/expert.png"
 const Expeiences = () => {
     return (
         <div className=' container pt-[20px] md:pt-[43px] px-[15px] '>
-            <div className="flex flex-col md:flex-row  justify-between mt-[30px]">
+            <div className="flex flex-col md:flex-row items-center  justify-between mt-[30px]">
                 <div className="md:w-[50%]  ">
-                    <div className=" md:pr-[15px]">
+                    <div className=" sm:pr-[15px]">
                         <img src={expert} alt="" />
                     </div>
-
                 </div>
                 <div className=" md:w-[50%] mt-[35px] md:mt-[15px] md:ml-[15px] ">
                     <div className="flex flex-col justify-between gap-8 md:pl-[40px] md:pr-[138px] ">
@@ -29,11 +28,9 @@ const Expeiences = () => {
                             <p className='font-rubik font-normal  text-[16px] leading-[30px] text-[#5D6570] pt-[16px] dark:text-[#9F9F9F] '>Duis aute irure dolor in reprehenderit in voluptate velit esse
                                 cillum desi dolore eu fugiat nulla pariatu Duis aute irure</p>
                         </div>
-
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

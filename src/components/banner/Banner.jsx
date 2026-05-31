@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="container px-3 relative dark:bg-black ">
 
             <div className=" relative flex flex-col  md:flex-row justify-between items-start  pb-[30px] md:pb-[88px]">
-                <div className="  md:absolute md:left-85  md:top-[10px]   items-center flex justify-center  z-[10]">
+                <div className="  md:absolute pl-[20px] md:pl-0 md:left-70  md:top-[10px]   items-center flex justify-center  z-[10]">
                     <img src={banner} alt="" />
                 </div>
                 <div className=" md:w-[25%] pt-[20px] md:pt-[192px] space-y-5">
@@ -22,7 +22,7 @@ const Banner = () => {
                     </div>
 
                 </div>
-                <div className=" md:w-[25%] pt-[20px] md:pt-[192px] flex flex-col gap-3 md:gap-10 ">
+                <div className=" md:w-[25%] pt-[20px] md:pt-[192px] md:pb-[300px] flex flex-col gap-3 md:gap-10 ">
                     <div className="  md:space-y-5 ">
                         <p className='font-rubik  font-normal text-[16px] leading-[30px]  text-black dark:text-white ' >About Me</p>
                         <h2 className=' font-rubik  font-normal text-[16px] leading-[30px] text-black dark:text-white' >A personal <span className='text-[#FF494A]'>portfolio</span> is a collection of to

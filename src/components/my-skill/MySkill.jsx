@@ -13,16 +13,16 @@ const MySkill = () => {
                         the best Experiences</h2>
                 </div>
                 <div className="">
-                    <div className=" bg-[#FF4A57] flex flex-col rounded-[20px] gap-5 px-[20px] ">
+                    <div className=" bg-[#FF4A57] flex flex-col rounded-[20px] gap-5 px-[20px]  ">
                         <div className="pt-[20px] md:pt-[42px] pb-[20px] md:pb-[32px] flex  flex-col md:flex-row justify-between items-center md:gap-[132px] ">
                             <div className="p-4 rounded-full border-2 border border-[#141414] dark:text-[#9F9F9F] dark:border-[#FFFFFF]/8 ">
                                 <CiBank className='size-7 ' />
                             </div>
-                            <div className="md:w-[25%] ">
+                            <div className="md:w-[25%] text-center md:text-start">
                                 <h2 className='font-rajdhani font-bold text-[32px] leading-[42px] text-[#141414] dark:text-white'>Ui/visual Design</h2>
-                                <p className='font-rajdhani font-normal text-[18px] leading-[27px] text-[#141414] dark:text-white'>21 Done</p>
+                                <p className='font-rajdhani font-normal text-[18px] leading-[27px]  text-[#141414] dark:text-white'>21 Done</p>
                             </div>
-                            <div className=" md:w-[40%] text-center md:text-start  ">
+                            <div className=" md:w-[40%]  ">
                                 <p className='font-rubik font-medium text-[16px] leading-[30px] text-[#141414] dark:text-white'>My work is driven by the belief that thoughtful design and
                                     strategic planning can empower brands strategic planning
                                     can empower brands</p>
@@ -38,7 +38,7 @@ const MySkill = () => {
                             <div className="p-4 rounded-full border-2 border border-[#141414] dark:text-white dark:border-[#FFFFFF]  dark:border-2">
                                 <CiBank className=' size-7 text-[#2A2D31] dark:text-[#9F9F9F]   ' />
                             </div>
-                            <div className="md:w-[25%] ">
+                            <div className="md:w-[25%] text-center md:text-start ">
                                 <h2 className='font-rajdhani font-bold text-[32px] leading-[42px] text-[#141414] dark:text-white'>Ui/visual Design</h2>
                                 <p className='font-rajdhani font-normal text-[18px] leading-[27px] text-[#141414] dark:text-white'>21 Done</p>
                             </div>
@@ -58,7 +58,7 @@ const MySkill = () => {
                             <div className="p-4 rounded-full border-2  dark:border-white border border-[#141414]  dark:text-[#FFFFFF]/8 ">
                                 <CiBank className='text-[#2A2D31] dark:text-[#9F9F9F] size-7' />
                             </div>
-                            <div className="md:w-[25%] ">
+                            <div className="md:w-[25%] text-center md:text-start">
                                 <h2 className='font-rajdhani font-bold text-[32px] leading-[42px] text-[#141414] dark:text-white'>Ui/visual Design</h2>
                                 <p className='font-rajdhani font-normal text-[18px] leading-[27px] text-[#141414] dark:text-white'>21 Done</p>
                             </div>

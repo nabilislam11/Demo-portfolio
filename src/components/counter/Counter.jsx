@@ -15,9 +15,9 @@ const Counter = () => {
                     <p className='font-rubik  font-normal text-[16px] leading-[26px] text-black dark:text-[#FFFFFF]'>Business consulting consultants provide expert advice and guida the
                         a businesses to help theme their performance efficiency</p>
                 </div>
-                <div className=" md:w-[50%] grid grid-cols-1 md:grid-cols-2 gap-8  mt-[32px]  md:ml-[17px]">
+                <div className=" md:w-[50%] grid grid-cols-1 sm:grid-cols-2 gap-8  mt-[32px]  md:ml-[17px]">
                     <div className="w-full max-w-[360px] mx-auto h-[158px] py-[35px] px-[5px] 
-sm:max-w-[170px] md:max-w-[295px] md:h-[162px]
+ md:max-w-[295px] md:h-[162px]
 border border-b-[#FF494A] border-t-[#141414] border-l-[#141414] border-r-[#FF494A] 
 bg-[#F4F4F4] dark:bg-[#141414] 
 shadow-[2px_2px_0px_0px_#FF494A] 
@@ -31,7 +31,7 @@ space-y-1 rounded-[20px] text-center flex flex-col justify-between items-center"
 
                     </div>
                     <div className="w-full max-w-[360px] mx-auto h-[158px] py-[35px] px-[5px] 
-sm:max-w-[170px] md:max-w-[295px] md:h-[162px]
+ md:max-w-[295px] md:h-[162px]
 border border-b-[#FF494A] border-t-[#141414] border-l-[#141414] border-r-[#FF494A] 
 bg-[#F4F4F4] dark:bg-[#141414] 
 shadow-[2px_2px_0px_0px_#FF494A] 

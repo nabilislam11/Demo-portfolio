@@ -79,13 +79,10 @@ const Testimonial = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
-
                 }
             },
-
         ]
     }
-
     console.log(window.innerWidth);
     return (
         <div className='container  px-[15px] '>
@@ -100,7 +97,6 @@ const Testimonial = () => {
                     className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-[#FF494A] hover:text-white transition-all  absolute top-42  left-[-100px]"
                 >
                     <IoMdArrowDropleft size={30} />
-
                 </button>
                 <button
                     onClick={() => sliderRef.current.slickNext()}
@@ -144,12 +140,8 @@ const Testimonial = () => {
                             </div>
                         ))
                     }
-
-
                 </Slider>
             </div>
-
-
         </div>
     )
 }
